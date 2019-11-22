@@ -3,11 +3,12 @@
 --------------------------------------------------------------------------------------------------------
 The goal of this project is to make make a very simple pipeline that finds lane lines on the road.
 
-The static results for every step pipeline are present in the file "test_images_output".
+The input data are present in the file "test_images" (static data input) and "test_videos" (dynamic data input).
 
-The dynamic final results are the two videos : solidWhiteRight.mp4 and solidYellowLeft.mp4 in the file test_videos_output.
+The  results are present the file "test_images_output" (static results) and  "test_videos_output" (dynamic result).
 
 ---------------------------------------------------------------------------------------------------------
+
 #### Pipeline Description
 
 The pipeline consisted of 6 steps : 
