@@ -1,6 +1,9 @@
 ### Simple-lane-lines-finding-on-the-road
 Simple SW Pipeline to identify the lane boundaries in a video from a front-facing camera on a car (Canny functions and Hough Transform)
 
+#### Dynamic Results of lanes line detection on the road on the trial track 1 [here](https://github.com/Jeanyvesbourdoncle/Simple-lane-lines-finding-on-the-road/blob/master/test_videos_output/solidWhiteRight.mp4). 
+
+#### Dynamic Results of lanes line detection on the road on the trial track 2 [here](https://github.com/Jeanyvesbourdoncle/Simple-lane-lines-finding-on-the-road/blob/master/test_videos_output/solidYellowLeft.mp4).
 --------------------------------------------------------------------------------------------------------
 The goal of this project is to make make a very simple pipeline that finds lane lines on the road.
 
@@ -80,8 +83,4 @@ On the top of the interested area, short perturbation are present in the video.
 
 The Canny threshold and the Hough parameters must be improved to delete totally these perturbations. 
 
-The dynamic results are :
-https://github.com/Jeanyvesbourdoncle/Simple-lane-lines-finding-on-the-road/blob/master/test_videos_output/solidWhiteRight.mp4
-
-https://github.com/Jeanyvesbourdoncle/Simple-lane-lines-finding-on-the-road/blob/master/test_videos_output/solidYellowLeft.mp4
 
